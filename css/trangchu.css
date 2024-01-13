@@ -1,0 +1,249 @@
+/* @font-face {
+    font-family: ;
+    src: url(../fonts/svn-);
+} */
+/* navbar  */
+.nav-item a{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--black-text);
+}
+.navbar{
+    background-color: #fff !important;
+}
+li{
+    padding-left: 80px;
+}
+
+.nav-item a:hover{
+    color: var(--green-text);
+}
+/* slider  */
+.image-item{
+    position: relative;
+}
+.text{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+@font-face {
+    font-family:"SVN-Bellico" ;
+    src: url(../fonts/fonts-svn/SVN-Bellico.otf);
+}
+
+.text h2{
+    color: var(--green-text);
+    font-family: SVN-Bellico;
+    font-size: 6rem;
+}
+.text p{
+    padding: 20px 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    /* padding: 40px 0; */
+}
+.circle i{
+    margin: 0 5px;
+    color: var(--green-text);   
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--green-text);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color-white {
+    color: #fff !important;
+}
+/* product-slider */
+#product-slider {
+    position: relative;
+}
+#product-slider h1, .col-xxl-3{
+    text-align: center;
+}
+#product-slider i{
+    color: var(--green-text);
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--green-text);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.icon-left{
+    top: 55%;
+    left: 250px;
+}
+.icon-right{
+    top: 55%;
+    right: 250px;
+}
+/* intro  */
+#introduce{
+    background-image: url(../imgs/trangchu/bg-intro.png);
+    position: relative;
+}
+.fw-600{
+    font-weight: 600;
+}
+.intro-title{
+    padding: 300px 0 150px 0;
+}
+
+#introduce h5{
+    position: absolute;
+    top: 370px;
+    right: 90px;
+    padding-bottom: 100px;
+    color: var(--green-text);
+    font-size: 1.4rem;
+    z-index: 1;
+}
+#introduce i{
+    position: absolute;
+    top: 375px;
+    right: 250px;
+    padding-bottom: 100px;
+    color: #fff;
+    z-index: 3;
+    font-size: 1.4rem;
+}
+#introduce .bg-icon{
+    position: absolute;
+    top: 350px;
+    right: 215px;
+    padding-bottom: 100px;
+    color: #fff;
+    z-index: 2;
+}
+#introduce .bg-num{
+    position: absolute;
+    top: 350px;
+    right: 50px;
+    padding-bottom: 100px;
+    width: 200px;
+    color: #fff;
+}
+#introduce .row{
+    padding-bottom: 400px;
+}
+#introduce .col-xxl-6{
+    padding-left: 100px;
+}
+.col-xxl-6 h1{
+    color: var(--green-text);
+}
+.btn{
+    background-color: var(--green-text);
+    border-radius: 0;
+    width: 200px;
+    height: 50px;
+    font-weight: 600;
+}
+.btn:hover{
+    background-color: #acc61a;
+}
+
+/* tea artist  */
+#tea-artist{
+    position: relative;
+}
+.binh-tra{
+    width: 465px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.tea-artist h1{
+    padding: 30px 0 70px 0;
+}
+.tea-artist h5{
+    padding: 15px 0;
+}
+
+/* buy now  */
+/* #form{
+    padding: 100px 0;
+} */
+#buy-now{
+    position: relative;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.buy-now{
+    padding: 200px 0;
+}
+.buy-now h1{
+    padding-bottom: 60px;
+}
+.form input, button{
+    height: 50px;
+}
+.form input{
+    width: 70%;
+    margin-right: 30px;
+    padding-left: 20px;
+    border: 3px solid var(--green-text);
+}
+.form button{
+    width: 15%;
+}
+::placeholder{
+    font-weight: 500;
+    color: var(--black-text);
+}
+.latra, .tra{
+    position: absolute;
+}
+.latra{
+    top: 210px;
+    left: 210px;
+    width: 80px;
+    transform: rotate(20deg);
+}
+.tra{
+    width: 400px;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+/* footer  */
+.ft {
+    background-image: url(../imgs/tintuc/ft.png);
+}
+.addr-ft img{
+    width: 183px;
+    height: 54px;
+}
+.contact-ft img{
+    width: 100px;
+}
+.row-ft{
+    /* margin-top: 50px; */
+    padding-left: 150px;
+}
+.row-ft .col-xxl-4{
+    margin: 30px auto;
+}
+.row-ft .col-xxl-4 h5{
+    line-height: 54px;
+}
+.row-ft .col-xxl-4 p{
+    font-weight: 500;
+    font-size: .8rem;
+}
+

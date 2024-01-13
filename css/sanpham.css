@@ -1,0 +1,168 @@
+:root{
+    --text-gray: #7a7a7a;
+}
+
+/* navbar  */
+.navbar{
+    background-color: #fff !important;
+}
+.nav-item a{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--black-text);
+}
+.navbar{
+    background-color: #fff !important;
+}
+li{
+    padding-left: 80px;
+}
+.nav-item a:hover{
+    color: var(--green-text);
+}
+/* banner  */
+.banner-text{
+    background-image: url(../imgs/sanpham/banner.jpg);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-text h1{
+    font-weight: 600;
+    font-size: 3rem;
+}
+/* list-item */
+
+.list-title a{
+    text-decoration: none;
+    color: var(--text-gray);
+}
+.list-title a:hover {
+    color: var(--black-text);
+    cursor: pointer;
+}
+.arr-right{
+    margin: 0 10px;
+}
+.option-product, .price, .brand{
+    display: flex;
+    flex-direction: column;
+}
+.option-product h5, .pb-3{
+    color: var(--black-text);
+}
+.option-product, .price, .brand  label{
+    color: var(--text-gray);
+}
+.price{
+    position: relative;
+}
+.price p{
+    font-size: .9rem;
+}
+.price p::after{
+    content: "";
+    width: 200px;
+    height: 2px;
+    background-color: var(--text-gray);
+    position: absolute;
+    top: 90px;
+    left: 0;
+}
+.price-af::after{
+    content: "";
+    width: 9px;
+    height: 9px;
+    background-color: var(--text-gray);
+    position: absolute;
+    top: 87px;
+    left: 70px;
+}
+.price-af::before{
+    content: "";
+    width: 9px;
+    height: 9px;
+    background-color: var(--text-gray);
+    position: absolute;
+    top: 87px;
+    left: 0;
+}
+
+/* list product  */
+.new{
+    background-color: #d4f59b;
+    width: 45px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .7rem;
+    font-weight: 600;
+}
+.star{
+    justify-content: space-around;
+}
+
+.vnd{
+    font-size: .8rem;
+    margin-right: 15px;
+}
+.num{
+    color: var(--text-gray);
+    font-size: .8rem;
+}
+.gram{
+    color: var(--text-gray);
+    font-size: 1.1rem;
+}
+@font-face {
+    font-family: "Roboto-Medium" ;
+    src: url(../fonts/fonts-roboto/Roboto-Medium.ttf);
+}
+.detail h5, span{
+    font-family: Roboto-Medium;
+}
+/* count */
+.count{
+    width: 100%;
+    text-align: center;
+}
+.count button{
+    height: 20px;
+    width: 20px;
+    font-size: .8rem;
+    border-color: #c4c4c4;
+    margin: auto 3px;
+}
+.count button:hover {
+    border-color: #69922b;
+}
+
+
+/* footer */
+.ft {
+    background-image: url(../imgs/tintuc/ft.png);
+}
+.addr-ft img{
+    width: 183px;
+    height: 54px;
+}
+.contact-ft img{
+    width: 100px;
+}
+.row-ft{
+    margin-top: 50px;
+    padding-left: 150px;
+}
+.row-ft .col-xxl-4{
+    margin: 30px auto;
+}
+.row-ft .col-xxl-4 h5{
+    line-height: 54px;
+}
+.row-ft .col-xxl-4 p{
+    font-size: .8rem;
+    font-weight: 500;
+}
+

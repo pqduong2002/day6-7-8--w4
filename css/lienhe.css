@@ -1,0 +1,67 @@
+/* navbar  */
+.navbar{
+    background-color: #fff !important;
+}
+.nav-item a{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--black-text);
+}
+.navbar{
+    background-color: #fff !important;
+}
+li{
+    padding-left: 80px;
+}
+.nav-item a:hover{
+    color: var(--green-text);
+}
+
+/* form  */
+
+.form{
+    background-image: url(../imgs/lienhe/bg.jpg);
+    padding: 200px 0 400px 110px;
+}
+.col-xxl-6 input{
+   width: 90%;
+   height: 45px;
+   margin-bottom: 20px;
+   padding-left: 10px;
+   border: 2px solid #899a29;
+}
+.col-xxl-6 button{
+    height: 45px;
+    width: 100px;
+    background-color: #899a29;
+    color: #fff;
+    border: none;
+}
+.col-xxl-6 button:hover{
+    background-color: #abbe3e;
+}
+/* footer */
+.ft {
+    background-image: url(../imgs/tintuc/ft.png);
+}
+.addr-ft img{
+    width: 183px;
+    height: 54px;
+}
+.contact-ft img{
+    width: 100px;
+}
+.row-ft{
+    margin-top: 50px;
+    padding-left: 150px;
+}
+.row-ft .col-xxl-4{
+    margin: 30px auto;
+}
+.row-ft .col-xxl-4 h5{
+    line-height: 54px;
+}
+.row-ft .col-xxl-4 p{
+    font-size: .8rem;
+    font-weight: 500;
+}
